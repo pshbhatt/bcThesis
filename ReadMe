@@ -1,0 +1,8 @@
+The following classes are the main classes being used:
+
+CreateBlockchain is the java class which is responsible for creation of blockchains. It takes parameters from Hadoop Source Code like Username, Dataset name and method using which the dataset was accessed.
+EncryptionClass is a class which encrypts the data
+Role_Registration is for user registration.
+ValidateBlockchain is for validating the blockchain. It checks the values of the blockchain at regular intervals.
+ValidationScheduler creates the Quartz Cron Job for blockchain validation.
+ViewBlockchain is for viewing the blockchain. The blockchain would be visible based on the role of the user.
